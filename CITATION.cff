@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  What a DNA language model knows about real eDNA reads: off-targets,
+  novelty and chimeras (Evo 2, version 2)
+message: If you use these results or scripts, please cite them as below.
+type: software
+version: 2.0.0
+date-released: 2026-10-05
+authors:
+  - given-names: Maia
+    family-names: Kaplan
+    affiliation: Universidad de Buenos Aires / IQUIBICEN
+repository-code: 'https://github.com/maiakaplan03/evo2-edna-real-reads'
+abstract: >-
+  Tests whether the Evo 2 (7B) genomic foundation model stores the
+  information that traditional eDNA pipeline steps use - COI filters,
+  database identity, chimera detection - by scoring 200,898 real COI
+  metabarcoding sequences (Brazilian soil, abyssal sediment) and simulated
+  contamination cohorts in one shared space. Covers off-target reads that
+  pass every COI check, an identity-stratified novelty ladder, and
+  reference-free localisation of chimera junctions. Version 1 (simulated
+  data only) is at github.com/maiakaplan03/evo2-edna-novelty-v1.
+keywords:
+  - environmental DNA
+  - metabarcoding
+  - genomic language model
+  - Evo 2
+  - embeddings
+  - off-target amplicons
+  - chimera detection
+  - novelty detection
+license: MIT
+# Uncomment and fill in once the Zenodo archive is minted:
+# doi: 10.5281/zenodo.XXXXXXX

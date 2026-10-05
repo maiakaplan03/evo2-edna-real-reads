@@ -1,0 +1,25 @@
+# ---- python --------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ---- data never belongs in this repository ------------------------------
+*.f16
+*.npy
+*.npz
+*.fastq
+*.fastq.gz
+*.fasta
+*.fasta.gz
+*.uc
+!data/*.npz
+
+# ---- copies that are not in the figure chain (delete locally) -----------
+scripts/05_offtargets/e3b_onehot.py
+scripts/04_novelty_ladder/w6_proper_nulls.py
+figures/fig10_chimera_localisation_by_tier.png
+
+# ---- os / editor ---------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
